@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  position: relative;
+  display: flex;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  font-size: 14px;
+}
+.nav-bar div {
+  padding: 0 16px;
+}
+.nav-bar div span {
+  display: inline-block;
+}
+.nav-bar .nav-bar-left,
+.nav-bar .nav-bar-right {
+  cursor: pointer;
+}
+.nav-bar .nav-bar-center {
+  flex: 1;
+}
